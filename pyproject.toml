@@ -3,8 +3,8 @@
 [project]
 name = "blastpipe"
 version = "2025"
-license = {file = "LICENSE.txt"}
-summary='OZI Project utility library.'
+license = "Apache-2.0"
+description='OZI Project utility library.'
 authors=[{name='Eden Ross Duff MSc', email='help@oziproject.dev'}]
 requires-python='>=3.10, <3.14'
 keywords='ozi,meson'
@@ -22,7 +22,7 @@ classifiers = [
     'Typing :: Typed',
     'Environment :: Other Environment',
 ]
-description-file='README.rst'
+readme='README.rst'
 
 [build-system]
 requires = [
