@@ -4,6 +4,25 @@
 name = "blastpipe"
 version = "2025"
 license = {file = "LICENSE.txt"}
+summary='OZI Project utility library.'
+authors=[{name='Eden Ross Duff MSc', email='help@oziproject.dev'}]
+requires-python='>=3.10, <3.14'
+keywords='ozi,meson'
+classifiers = [
+    'License :: OSI Approved :: Apache Software License',
+    'Development Status :: 3 - Alpha',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: Implementation :: CPython',
+    'Intended Audience :: Other Audience',
+    'Natural Language :: English',
+    'Typing :: Typed',
+    'Environment :: Other Environment',
+]
+description-file='README.rst'
 
 [build-system]
 requires = [
@@ -65,29 +84,7 @@ test = [
 ]
 
 [tool.ozi-build.metadata]
-summary='OZI Project utility library.'
-home-page='https://oziproject.dev'
-author='Eden Ross Duff MSc'
-author-email='help@oziproject.dev'
-download-url='https://github.com/OZI-Project/blastpipe/archive/refs/tags/@SCM_VERSION@.tar.gz'
-requires-python='>=3.10, <3.14'
-keywords='ozi,meson'
 provides=['msgspec']
-classifiers = [
-    'License :: OSI Approved :: Apache Software License',
-    'Development Status :: 3 - Alpha',
-    'Programming Language :: Python :: 3 :: Only',
-    'Programming Language :: Python :: 3.10',
-    'Programming Language :: Python :: 3.11',
-    'Programming Language :: Python :: 3.12',
-    'Programming Language :: Python :: 3.13',
-    'Programming Language :: Python :: Implementation :: CPython',
-    'Intended Audience :: Other Audience',
-    'Natural Language :: English',
-    'Typing :: Typed',
-    'Environment :: Other Environment',
-]
-description-file='README.rst'
 
 [tool.cibuildwheel]
 build-frontend = "build[uv]"
