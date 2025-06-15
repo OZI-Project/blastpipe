@@ -11,7 +11,7 @@ requires = [
 ]
 build-backend = "ozi_build.buildapi"
 
-[project.optional_dependencies] # also meson test suite names
+[project.optional-dependencies] # also meson test suite names
 # OZI Packaging Dependencies
 # continuous integration
 ci   = [
