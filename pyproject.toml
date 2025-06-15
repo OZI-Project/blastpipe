@@ -1,6 +1,8 @@
 # Part of blastpipe.
 # See LICENSE.txt in the project root for details.
 [project]
+name = "blastpipe"
+version = "2025"
 license = {file = "LICENSE.txt"}
 
 [build-system]
