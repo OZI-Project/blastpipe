@@ -48,15 +48,6 @@ If you have any proposed changes related to a bug, if an Issue has not been crea
 complete the above instructions.
 The next steps are similar to the steps needed to create a feature pull request.
 
-Submitting a Fix
-################
-
-1. Fork the repository
-2. Create your Bugfix Branch (``git checkout -b bugfix/Issue#``)
-3. Commit your Changes (``git commit -m '🐛: Fix Issue#'``)
-4. Push to the Branch (``git push origin bugfix/Issue#``)
-5. Open a Pull Request
-
 License
 ^^^^^^^
 
